@@ -1,0 +1,45 @@
+{% extends 'core/base.html' %}
+
+{% load static %}
+
+{% block title %}Inicio{% endblock %}
+
+{% block content %}
+
+<!-- Cabecera -->
+<section class="page-section clearfix">
+  <div class="container">
+    <div class="intro">
+      <img class="intro-img img-fluid mb-3 mb-lg-0 rounded" src="{% static 'core/img/intro.jpg' %}" alt="">
+      <div class="intro-text left-0 text-center bg-faded p-5 rounded">
+        <h2 class="section-heading mb-4">
+          <span class="section-heading-upper">Déjate sorprender</span>
+          <span class="section-heading-lower">Dato interesante</span>
+        </h2>
+        <p class="mb-3">Algunos estudios han demostrado que el consumo de cafeína puede aumentar tu metabolismo de 3% al 11%. Ahors puedes hacer 2 cosas que te gustan disfrutar tu taza de café y mejora tu metabolismo.
+        </p>
+        <div class="intro-button mx-auto">
+          <a class="btn btn-primary btn-xl" href="https://www.youtube.com/channel/UC6l2cspVlCaQhNF8m47icrQ">Suscribete</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Mensaje -->
+<section class="page-section cta">
+  <div class="container">
+    <div class="row">
+      <div class="col-xl-9 mx-auto">
+        <div class="cta-inner text-center rounded">
+          <h2 class="section-heading mb-4">
+            <span class="section-heading-upper">Sabor Unico</span>
+            <span class="section-heading-lower">Garantizado</span>
+          </h2>
+          <p class="mb-0"> Preocupados porsatisfacer el paladar mas exigentes de nuestros consumidores. Ya que es una iniciativa de promover el consumo de cafés de calidad y difundir la cultura cafetera nacional, tradicional de nuestra linda tierra Tlaxcalteca</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{% endblock %}
